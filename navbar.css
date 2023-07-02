@@ -1,0 +1,218 @@
+#top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #09233a;
+    padding: 5px 0;
+    color: #fff;
+}
+@media (max-width: 992px) {
+    #top-bar {
+        padding: 5px 0;
+    }
+    #top-bar .social {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    #top-bar .line {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 12px;
+    }
+    #top-bar .line a {
+        padding: 0.5rem 0.5rem;
+    }
+}
+#top-bar .line li {
+    position: relative;
+}
+#top-bar .line li:after {
+    position: absolute;
+    right: -1px;
+    top: 9px;
+    content: "|";
+}
+#top-bar .line li:last-child:after {
+    display: none;
+}
+#top-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+#top-bar a:hover {
+    color: #89beec;
+}
+
+
+
+
+
+
+
+
+
+
+
+#header {
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    top: 44px;
+    background-color: #051340;
+}
+@media (min-width: 992px) {
+    #header {
+        top: 50px;
+    }
+    #header .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+#header .btn {
+    border-radius: 20px;
+    padding-right: 0;
+}
+#header .btn b {
+    font-weight: 600;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #header .btn b {
+        display: none;
+    }
+}
+#header .btn span {
+    background-color: #EF234E;
+    color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: -2px;
+    border-radius: 20px;
+}
+#header .btn span a {
+    color: #fff;
+}
+#header .btn:hover span {
+    background-color: #1E73BE;
+}
+.bg-home {
+    background-color: #ffffff;
+    background-image: url(../img/home12_bg.png);
+    -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+    background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+    .bg-home {
+        background-position: bottom center;
+        /*background-size: cover;*/
+    }
+}
+.bg-home .section {
+    background-color: transparent;
+}
+@media (max-width: 768px) {
+    .bg-home {
+        text-align: center;
+    }
+}
+.bg-home {
+    background-color: #ffffff;
+    background-image: url(../img/home12_bg.png);
+    -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+    background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+    .bg-home {
+        background-position: bottom center;
+        /*background-size: cover;*/
+    }
+}
+.bg-home .section {
+    background-color: transparent;
+}
+@media (max-width: 768px) {
+    .bg-home {
+        text-align: center;
+    }
+}
+.bg-home {
+    background-color: #ffffff;
+    background-image: url(../img/home12_bg.png);
+    -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+    background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+    .bg-home {
+        background-position: bottom center;
+        /*background-size: cover;*/
+    }
+}
+.bg-home .section {
+    background-color: transparent;
+}
+@media (max-width: 768px) {
+    .bg-home {
+        text-align: center;
+    }
+}
+.bg-home {
+    background-color: #ffffff;
+    background-image: url(../img/home12_bg.png);
+    -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+    background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+    .bg-home {
+        background-position: bottom center;
+        /*background-size: cover;*/
+    }
+}
+.bg-home .section {
+    background-color: transparent;
+}
+@media (max-width: 768px) {
+    .bg-home {
+        text-align: center;
+    }
+}
+.bg-home {
+    background-color: #ffffff;
+    background-image: url(../img/home12_bg.png);
+    -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+    background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+    .bg-home {
+        background-position: bottom center;
+        /*background-size: cover;*/
+    }
+}
+.bg-home .section {
+    background-color: transparent;
+}
+@media (max-width: 768px) {
+    .bg-home {
+        text-align: center;
+    }
+}

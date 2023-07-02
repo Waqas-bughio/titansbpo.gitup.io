@@ -1,0 +1,36 @@
+.about {
+    display: flex;
+    background: url("images/about-1.jpg") no-repeat center center;
+    height: 50vh;
+    color: #000;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+   
+
+}
+
+.about .max-width {
+    margin: 30vh  auto 30px;
+}
+
+
+.about .about-content .text-2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+/*    margin-left: -3px;*/
+}
+
+
+
+
+   .services_box {
+        border: 1px solid #0e51bb;
+        transition: border-color 0.3s ease;
+    }
+
+    .services_box:hover {
+        border-color: transparent;
+    }

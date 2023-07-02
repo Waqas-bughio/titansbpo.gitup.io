@@ -1,0 +1,27 @@
+
+
+.careers {
+    display: flex;
+     background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.329)), url("images/careers.png") no-repeat center;
+    height: 50vh;
+    color: #000;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+   
+
+}
+
+.careers .max-width {
+    margin: 30vh  auto 30px;
+}
+
+
+.careers .careers .text-2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-top: 15%;
+}
+

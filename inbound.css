@@ -1,0 +1,27 @@
+
+
+.inbound {
+    display: flex;
+     background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.329)), url("images/services-img3.jpg") no-repeat center;
+    height: 50vh;
+    color: #000;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+   
+
+}
+
+.inbound .max-width {
+    margin: 30vh  auto 30px;
+}
+
+
+.inbound .inbound-content .text-2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-top: 15%;
+}
+
